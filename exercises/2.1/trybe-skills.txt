@@ -8,5 +8,7 @@ O que eu vou aprender na Trybe:
 - CSS
 =======
 - JavaScript
+- HTML
+- CSS
 
 >>>>>>> master

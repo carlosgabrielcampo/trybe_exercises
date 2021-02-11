@@ -1,0 +1,39 @@
+
+body{
+    font-size: 16px;
+}
+
+h1{ 
+    font-size: 65px;
+    color: #FF8A33;
+    font-family: sans-serif;
+    text-decoration: underline;
+
+}
+ul{
+    background-color: #EDD1CC ;
+    font-style: oblique;
+    line-height: 2em;
+}
+
+p{
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+
+.favoriteColor{ 
+    color: #A5B2D5;
+}
+#yellow{
+    background-color: yellow;
+    color: black;
+}
+#red{
+    background-color: red;
+    color: black;
+}
+#brown{
+    background-color: brown;
+    color: black;
+}
