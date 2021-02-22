@@ -1,0 +1,34 @@
+div:hover{
+    border: solid 5px black;
+}
+
+.first{
+    background-attachment: grey;
+    color: thistle;
+    font-style: italic;
+}
+.secondary{
+    background-color: blanchedalmond;
+    color: coral;
+}
+.complement{
+    background-color: cornsilk;
+    color: darkolivegreen;
+    height: 100px;
+    font-style: italic;
+}
+.dark{
+    background-color: dimgray;
+    color: gainsboro;
+}
+.light{
+    background-color: snow;
+    color: maroon;
+    font-style: italic;
+}
+
+
+
+
+
+
