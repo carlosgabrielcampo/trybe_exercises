@@ -6,6 +6,10 @@ let porcentagem = 52;
 let custoDoProduto = 28;
 let valorDeVenda = 0;
 let imposto = 0.2;
+let salario = 3000;
+let inss;
+let ir;
+let salarioLiquido;
 
 let adição = num1 + num2;
 console.log(adição);
@@ -116,3 +120,30 @@ if (custoTotalProduto == 0){
 } else if (valorDeVenda == 0){
     console.log('erro')
 } else {}
+
+if (salario <= 1556.94){
+  inss = salario * 0.08;
+} else if (salario > 1556.94 && salario <= 2594.92){
+  inss = salario * 0.09;
+} else if (salario > 2594.92 && salario <= 5189.82){
+  inss = salario * 0.11;
+} else {
+  inss = 570.88
+}
+console.log(inss)
+
+if (salario <= 1903.98){
+    ir = 0;
+  } else if ((salario - inss) > 1903.98 && (salario - inss) <= 2826.65){
+    ir = ((salario - inss) * 0.075) - 142.80;
+  } else if ((salario - inss) > 2826.65 && (salario - inss) <= 3751.05){
+    ir = ((salario - inss) * 0.15) - 354.80;
+  } else if ((salario - inss) > 3751.05 && (salario - inss) <= 4664.68){
+    ir = ((salario - inss) * 0.225) - 636.13;
+  } else {
+    ir = ((salario - inss) * 0.275) - 869.36;
+  } 
+  console.log(ir);
+
+  salarioLiquido = salario - inss - ir;
+  console.log(salarioLiquido);
