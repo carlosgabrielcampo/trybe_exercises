@@ -4,7 +4,7 @@ let num3 = 29;
 let chessPiece = 'peão';
 let porcentagem = 52;
 let custoDoProduto = 28;
-let valorDeVenda = 32;
+let valorDeVenda = 0;
 let imposto = 0.2;
 
 let adição = num1 + num2;
@@ -105,3 +105,14 @@ if (((num1 % 2) + (num2 % 2) + (num3 % 2)) > 0)  {
     console.log(false)
 }
 
+let custoTotalProduto = custoDoProduto + (imposto*custoDoProduto);
+console.log(custoTotalProduto);
+
+let lucro = (valorDeVenda -custoTotalProduto) * 1000;
+console.log(lucro);
+
+if (custoTotalProduto == 0){
+    console.log('erro')
+} else if (valorDeVenda == 0){
+    console.log('erro')
+} else {}
