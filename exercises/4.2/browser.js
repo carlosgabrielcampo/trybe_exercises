@@ -15,6 +15,24 @@ let sum = 0;
 // 2o  for (let index = 0; index < numbers.length; index += 1) {
 //   sum = numbers[index] += sum
 //    
-//}
+// }
 // console.log(sum);
 
+// 3o for (let index = 0; index < numbers.length; index += 1) {
+// sum = numbers[index] += sum   
+// }
+// sum = sum/numbers.length
+// console.log(sum);
+
+for (let index = 0; index < numbers.length; index += 1) {
+sum = numbers[index] += sum   
+}
+sum = sum/numbers.length
+
+if(sum > 20){
+  console.log("valor maior do que 20")
+} else {
+  console.log("valor menor ou igual a 20")
+}
+
+console.log(sum);
