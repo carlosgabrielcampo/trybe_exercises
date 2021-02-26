@@ -1,5 +1,4 @@
 
-//Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
 //Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 //Utilizando for , crie uma array que vá de 1 até 25 e imprima o resultado;
 //Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
@@ -11,6 +10,9 @@ let numeroatual = 0;
 let maiorNumero = 0;
 let contadorDeNumeros = 0;
 let impar = 0;
+let menor = 0;
+let menorNumero;
+
 
 // 2o  for (let index = 0; index < numbers.length; index += 1) {
 //   sum = numbers[index] += sum
@@ -59,7 +61,7 @@ let impar = 0;
 //} console.log(maiorNumero)
 
 
-//for (let index = 0; index < numbers.length; index += 1){
+//6o for (let index = 0; index < numbers.length; index += 1){
 //   contadorDeNumeros = numbers[index];
 //
 //    if (contadorDeNumeros % 2 == 0){
@@ -76,3 +78,22 @@ let impar = 0;
 //console.log(impar)
 
 
+//7o for (let index = 0; index < numbers.length; index += 1) {
+//  let numeroatual = numbers[index]
+//  
+//    for (let indexComparativo = 0; indexComparativo <= numbers.length; indexComparativo++){
+//        let numeroComparativo = numbers[indexComparativo-1]
+//
+//     if (numeroatual > numeroComparativo) {
+//         menor = 0;
+//
+//    } else {
+//        menor += 1;
+//    } 
+//
+//    if(menor === numbers.length){
+//        menorNumero = numeroatual 
+//     }
+//     }
+//
+//} console.log(menorNumero)
