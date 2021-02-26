@@ -1,6 +1,3 @@
-
-//Utilizando for , descubra qual o menor valor contido no array e imprima-o;
-//Utilizando for , crie uma array que vá de 1 até 25 e imprima o resultado;
 //Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -12,6 +9,7 @@ let contadorDeNumeros = 0;
 let impar = 0;
 let menor = 0;
 let menorNumero;
+let numeros125 = [];
 
 
 // 2o  for (let index = 0; index < numbers.length; index += 1) {
@@ -37,6 +35,7 @@ let menorNumero;
 //  console.log("valor menor ou igual a 20")
 //}
 //
+//Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 //console.log(sum);
 
 
@@ -44,7 +43,8 @@ let menorNumero;
 // 5o for (let index = 0; index < numbers.length; index += 1) {
 //   let numeroatual = numbers[index]
 //   
-//    for (let indexComparativo = 0; indexComparativo <= numbers.length; indexComparativo++){
+//    for (let indexComparativo = 0; indexComparativo <= numbers.length; indexCom
+//Utilizando for , descubra qual o menor valor contido no array e imprima-o;parativo++){
 //        let numeroComparativo = numbers[indexComparativo-1]
 //
 //     if (numeroatual >= numeroComparativo) {
@@ -97,3 +97,18 @@ let menorNumero;
 //     }
 //
 //} console.log(menorNumero)
+
+//8o  for (let index = 0; index < numbers.length; index += 1){
+//  contadorDeNumeros = numbers[index]
+//    if (contadorDeNumeros <= 25){
+//       numeros125.push(contadorDeNumeros)
+//    }
+//}
+
+for (let index = 0; index < numbers.length; index += 1){
+    contadorDeNumeros = numbers[index]
+     if (contadorDeNumeros <= 25){
+        numeros125.push(contadorDeNumeros/2)
+     }
+ }
+ console.log(numeros125)
