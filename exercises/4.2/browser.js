@@ -11,6 +11,9 @@
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let sum = 0;
+let maior = 0;
+let numeroatual = 0;
+let maiorNumero = 0;
 
 // 2o  for (let index = 0; index < numbers.length; index += 1) {
 //   sum = numbers[index] += sum
@@ -24,15 +27,43 @@ let sum = 0;
 // sum = sum/numbers.length
 // console.log(sum);
 
-for (let index = 0; index < numbers.length; index += 1) {
-sum = numbers[index] += sum   
-}
-sum = sum/numbers.length
+// 4o for (let index = 0; index < numbers.length; index += 1) {
+//sum = numbers[index] += sum   
+//}
+//sum = sum/numbers.length
 
-if(sum > 20){
-  console.log("valor maior do que 20")
-} else {
-  console.log("valor menor ou igual a 20")
-}
+//if(sum > 20){
+//  console.log("valor maior do que 20")
+//} else {
+//  console.log("valor menor ou igual a 20")
+//}
+//
+//console.log(sum);
 
-console.log(sum);
+
+
+// 5o for (let index = 0; index < numbers.length; index += 1) {
+//   let numeroatual = numbers[index]
+//   
+//    for (let indexComparativo = 0; indexComparativo <= numbers.length; indexComparativo++){
+//        let numeroComparativo = numbers[indexComparativo-1]
+//
+//     if (numeroatual >= numeroComparativo) {
+//         maior += 1;
+//
+//    } else {
+//        maior = 0;
+//    } 
+//
+//    if(maior == numbers.length){
+//        maiorNumero = numeroatual 
+//     }
+//     }
+//}
+
+console.log(maiorNumero)
+
+
+
+
+
