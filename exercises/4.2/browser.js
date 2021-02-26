@@ -105,10 +105,47 @@ let numeros125 = [];
 //    }
 //}
 
-for (let index = 0; index < numbers.length; index += 1){
-    contadorDeNumeros = numbers[index]
-     if (contadorDeNumeros <= 25){
-        numeros125.push(contadorDeNumeros/2)
-     }
- }
- console.log(numeros125)
+//9o for (let index = 0; index < numbers.length; index += 1){
+//    contadorDeNumeros = numbers[index]
+//     if (contadorDeNumeros <= 25){
+//        numeros125.push(contadorDeNumeros/2)
+//     }
+// }
+// console.log(numeros125)
+
+
+//----------------------------------------------Bonus----------------------------------------------------//
+//1o for (let i = 1; i < numbers.length; i++) {
+//    for (let j = 0; j < i; j++) {
+//      if (numbers[i] < numbers[j]) {
+//        let position = numbers[i];
+//  
+//        numbers[i] = numbers[j];
+//        numbers[j] = position;
+//      }
+//    }
+//  }
+
+//2o for (let i = 1; i < numbers.length; i++) {
+//    for (let j = 0; j < i; j++) {
+//      if (numbers[i] > numbers[j]) {
+//        let position = numbers[j];
+//  
+//       numbers[j] = numbers[i];
+//        numbers[i] = position;
+//      }
+//    }
+//  }
+
+//let mutiplicacaoArray = 0;
+//let depositoResultado = [];
+
+//3o for (let index = 1; index <= numbers.length; index +=1 ){
+//    mutiplicacaoArray = numbers[index-1]*numbers[index];
+//   if (mutiplicacaoArray > 0){
+//    depositoResultado.push(mutiplicacaoArray)
+//   } else{
+//   depositoResultado.push((numbers[index-1])*2)
+//   }
+//}
+//console.log(depositoResultado);
