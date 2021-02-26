@@ -59,8 +59,8 @@ let impar = 0;
 //} console.log(maiorNumero)
 
 
-//6o for (let index = 0; index < numbers.length; index += 1){
-//    contadorDeNumeros = numbers[index];
+//for (let index = 0; index < numbers.length; index += 1){
+//   contadorDeNumeros = numbers[index];
 //
 //    if (contadorDeNumeros % 2 == 0){
 //
@@ -68,6 +68,9 @@ let impar = 0;
 //      impar += 1;
 //    }
 //
+//}
+//if (impar === 0){
+//    console.log('nenhum valor impar encontrado')
 //}
 //
 //console.log(impar)
