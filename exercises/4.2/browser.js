@@ -41,24 +41,22 @@ let numeros125 = [];
 
 
 // 5o for (let index = 0; index < numbers.length; index += 1) {
-//   let numeroatual = numbers[index]
+   let numeroatual = numbers[index]
 //   
-//    for (let indexComparativo = 0; indexComparativo <= numbers.length; indexCom
-//Utilizando for , descubra qual o menor valor contido no array e imprima-o;parativo++){
-//        let numeroComparativo = numbers[indexComparativo-1]
-//
-//     if (numeroatual >= numeroComparativo) {
-//         maior += 1;
-//
-//    } else {
-//        maior = 0;
-//    } 
-//
-//    if(maior == numbers.length){
-//        maiorNumero = numeroatual 
-//     }
-//     }
-//} console.log(maiorNumero)
+    for (let indexComparativo = 0; indexComparativo <= numbers.length; indexComparativo++){
+        let numeroComparativo = numbers[indexComparativo-1]
+   if (numeroatual >= numeroComparativo) {
+      maior += 1;
+
+    } else {
+        maior = 0;
+   } 
+
+ if(maior == numbers.length){
+       maiorNumero = numeroatual 
+  }
+  }
+} console.log(maiorNumero)
 
 
 //6o for (let index = 0; index < numbers.length; index += 1){

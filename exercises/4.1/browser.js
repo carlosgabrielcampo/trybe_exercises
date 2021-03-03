@@ -11,8 +11,10 @@ let inss;
 let ir;
 let salarioLiquido;
 
-let adição = num1 + num2;
-console.log(adição);
+function soma(num1, num2){
+return num1 + num2;
+}
+
 
 let subtração = num1 - num2;
 console.log(subtração);
@@ -147,3 +149,6 @@ if (salario <= 1903.98){
 
   salarioLiquido = salario - inss - ir;
   console.log(salarioLiquido);
+
+
+
